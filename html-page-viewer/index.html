@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+
+   <head>
+     
+    <meta charset="UTF-8">
+    <script src="script\script_1.js"></script>
+  
+   
+   </head>
+      
+     
+     <body align="center" bgcolor="#33FFFF" >
+         
+<h1>ΕΞΙΣΩΣΗ 2ου ΒΑΘΜΟΥ</h1>     
+
+ <p>Για να λύσει ο υπολογιστής την ανίσωση παρακαλώ εισάγεται το α,β και το γ του τριωνύμου!</p>
+<p>ΠΡΟΚΟΠΗ ΓΑΜΙΕΣΑΙ !!!(έλα αυριο για διάβασμα)</p>
+   
+ 
+
+<table border="0 " align="center"  >
+<tr>
+   <td width="300" align="right">   a: </td>
+   
+   <td> <input type='text' id="a" onkeypress='return isNumber(event,"warning_a" )' /> </td>
+   
+   <td width=350>  <font color="red" id="warning_a" align="left"></font> </td>    
+
+</tr>
+
+
+<tr>
+     <td align="right" >b:</td> 
+     
+      <td>  <input type='text' id="b" onkeypress='return isNumber(event,"warning_b")'  />  </td>
+
+      <td> <font color="red" id="warning_b"></font> </td>  
+
+</tr>
+
+
+
+<tr>
+    <td align="right" >c: </td>
+    
+    <td>     <input type='text' id="c" onkeypress='return isNumber(event,"warning_c")' />   </td>
+  
+    <td>  <font color="red" id="warning_c"></font> </td>   
+  
+  
+
+</tr>
+
+<tr> 
+<td></td>
+<td>  <input type="button" onclick="solve()" value="ΛΥΣΗ !"  id="bt_solve"> </td> 
+
+
+
+</tr>
+</table>
+
+
+
+
+
+
+
+
+<table border="2" >
+
+
+<tr>
+  <td> ΕΞΙΣΩΣΗ:  </td>
+   
+   <td> <p id="equation"></p>  </td>
+</tr>
+
+
+<tr>
+
+
+
+<td>ΔΙΑΚΡΙΝΟΥΣΑ: </td>  <td width="100px" > <p id="hiddenText" align="center" ></p>  </td>
+
+</tr>
+
+
+<tr>
+
+<td>ΡΙΖΑ 1: </td>  <td width="100px" > <p id="x1" align="center" ></p>  </td>
+
+</tr>
+
+
+
+<tr>
+
+<td>ΡΙΖΑ 2:</td>  <td width="100px" > <p id="x2" align="center" ></p>  </td>
+
+</tr>
+
+
+</table>
+
+
+   <font color="red" id="test"></font>
+    
+ 
+    </body>
+    
+    
+    
+
+</html>
+
+
+
