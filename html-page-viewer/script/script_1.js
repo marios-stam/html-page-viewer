@@ -1,6 +1,6 @@
-﻿
+
 	
-function fuck(){
+function check(){
      if(   document.getElementById("a").value==""){
     	
     	alert("Παρακαλώ συμπληρωστε ολους τουσ ορους της εξισωσης!!!");
